@@ -17,7 +17,7 @@ class DeleteUserScreen extends StatelessWidget {
           elevation: 0,
           backgroundColor: Colors.white,
           title: const Text(
-            'All Users',
+            'Delete User',
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
           ),
         ),
@@ -27,15 +27,15 @@ class DeleteUserScreen extends StatelessWidget {
 
               return Card(
                 color: Colors.teal.shade50,
-                child: ListTile(
+                child: const ListTile(
                   title: Text(
                     "Deleted Successfully",
-                    style: const TextStyle(
+                    style: TextStyle(
                         fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                   subtitle: Text(
                     "Great Work",
-                    style: const TextStyle(
+                    style: TextStyle(
                         fontSize: 15, fontWeight: FontWeight.bold),
                   ),
 
