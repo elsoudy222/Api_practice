@@ -25,7 +25,7 @@ class CreateUserScreen extends StatelessWidget {
           elevation: 0,
           backgroundColor: Colors.white,
           title: const Text(
-            'All Users',
+            'Create User',
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
           ),
         ),
