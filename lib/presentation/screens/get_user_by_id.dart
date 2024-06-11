@@ -20,7 +20,7 @@ class GetUserByIDScreen extends StatelessWidget {
           elevation: 0,
           backgroundColor: Colors.white,
           title: const Text(
-            'All Users',
+            'Get User By ID',
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
           ),
         ),
